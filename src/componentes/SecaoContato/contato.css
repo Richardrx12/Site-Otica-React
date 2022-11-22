@@ -1,0 +1,45 @@
+footer{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    padding: 100px 20px;
+    background-color: #05031b;
+}
+
+.container-contato{
+    display: flex;
+    flex-direction: row;
+    width: 100% ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.contato h3{
+    text-align: left;
+}
+
+.texto-contato, .texto-redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.texto-contato p, .texto-redes p {
+    padding: 0 15px;
+}
+
+.texto-contato img, .texto-redes img{
+    width: 8%;
+    height: 8%;
+    
+}
+@media screen and (max-width:550px) and (min-width:320px) {
+
+    .texto-contato p, .texto-redes p{
+        margin: 0;
+    }
+
+}

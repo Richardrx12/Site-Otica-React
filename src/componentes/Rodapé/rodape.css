@@ -1,0 +1,16 @@
+.rodape{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 20px 0;
+}
+
+@media screen and (max-width:550px) and (min-width:320px) {
+
+    .rodape p{
+        font-size: 11px;
+    }
+
+}

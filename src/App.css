@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.limitar-secao {
+   
+ 
+   width: 100%;
+   max-width: 1024px;
+   margin: 0 auto;
+   
+}

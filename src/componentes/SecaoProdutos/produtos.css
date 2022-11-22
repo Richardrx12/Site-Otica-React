@@ -1,0 +1,62 @@
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 20px;
+    width: 100%;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-cards{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 50px 0;
+    width: 100%;
+    gap: 25px;
+    
+}
+.card {
+    width: calc(50% - 15px);
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    background-color: rgb(241, 240, 238);
+    
+}
+
+.card img {
+    width: 80%;
+    max-height: 150px;
+    min-height: 70px;
+    margin: 30px 0;
+}
+
+.produtos ul{
+    line-height: 35px;
+    padding: 0 20px;
+}
+
+@media screen and (max-width:550px) and (min-width:320px) {
+
+       .produtos p{
+            line-height: 25px;
+       } 
+
+       .card p, h3{
+           
+       }
+
+       .card p{
+        font-size: 13px;
+       }
+
+       .card {
+        padding: 0;
+       }
+
+}

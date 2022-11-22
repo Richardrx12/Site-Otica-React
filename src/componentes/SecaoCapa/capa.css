@@ -1,0 +1,46 @@
+.capa {
+    display: flex;
+    align-items: center;
+    min-height: 90vh;
+    background-image: url('/public/assets/capa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.texto-capa {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+}
+
+.texto-capa p{
+    padding:0;
+}
+
+@media screen and (max-width:550px) and (min-width:320px){
+    
+    *{
+        font-size: 14px
+    }
+
+    .capa{
+        background-position: 89% center;
+        min-height: 80vh;
+    }
+
+    .texto-capa{
+        background-color: rgba(0,0,0,0,6);
+        padding:0;
+    
+    }
+
+    .texto-capa h1{
+        font-size: 30px;
+    }
+
+}
